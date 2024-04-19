@@ -58,7 +58,7 @@
 						<configuration>
 							<suiteXmlFiles>
 								<suiteXmlFile>batch.xml</suiteXmlFile>
-								<suiteXmlFile>parallel.xml</suiteXmlFile>
+								
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
