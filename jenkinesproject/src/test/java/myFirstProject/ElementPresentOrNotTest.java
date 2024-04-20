@@ -7,23 +7,37 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class ElementPresentOrNotTest {
-	
+	WebDriver driver ;
 	@Test
 	public void sampletest31()
 	{
 		Reporter.log("sample---31", true);
 	}
 	
+
 	@Test
-	public  void elePresent() {
-		WebDriver driver = new ChromeDriver();
+	public  void elePresent()
+	{
 		driver.manage().window().maximize();
-		driver.get("https://demoapps.qspiders.com/ui/dropdown?sublist=0");
+		//driver.get("https://demoapps.qspiders.com/ui/dropdown?sublist=0");
+		String BROWSER = System.getProperty("browser");
+		
+		if(BROWSER.equalsIgnoreCase("chrome"))
+		{
+			driver= new ChromeDriver();
+		}
+		else if (BROWSER.equalsIgnoreCase("edge")) {
+			driver= new EdgeDriver();
+		}
+		
+		String URL =System.getProperty("url");
+		driver.get(URL);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		WebElement phone = driver.findElement(By.id("select1"));
