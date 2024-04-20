@@ -23,14 +23,6 @@ public class FileUploadPopUpTest {
 	@Test
 	public  void fileUp() throws AWTException {
 
-		WebDriver driver= new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-		// multiple files upload
-		driver.get("https://demoapps.qspiders.com/ui/fileUpload/multiple?sublist=3");
-		WebElement ele = driver.findElement(By.xpath("//input[@id='fileInput']"));
-		ele.sendKeys(System.getProperty("user.dir")+"C:\\Users\\VINAY C N\\OneDrive\\Desktop\\vinay-resume.D.pdf");
-
-	}
+		Reporter.log("sample---42", true);
+}
 }
