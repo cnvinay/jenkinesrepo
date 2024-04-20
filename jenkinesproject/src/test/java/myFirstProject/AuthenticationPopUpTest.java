@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class AuthenticationPopUp {
+public class AuthenticationPopUpTest {
 	@Test
 	public  void authPopUp() {
 		WebDriver driver = new ChromeDriver();

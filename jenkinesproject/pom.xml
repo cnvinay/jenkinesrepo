@@ -58,7 +58,6 @@
 						<configuration>
 							<suiteXmlFiles>
 								<suiteXmlFile>batch.xml</suiteXmlFile>
-								
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>

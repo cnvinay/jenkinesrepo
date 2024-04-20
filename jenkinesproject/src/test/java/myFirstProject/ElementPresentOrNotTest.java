@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class ElementPresentOrNot {
+public class ElementPresentOrNotTest {
 	
 	@Test
 	public void sampletest31()
