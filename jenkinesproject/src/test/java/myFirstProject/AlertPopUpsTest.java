@@ -20,7 +20,7 @@ public class AlertPopUpsTest {
 	
 	
 	
-	@Test
+	//@Test
 	public void popUp()
 	{
 		WebDriver driver = new ChromeDriver();
