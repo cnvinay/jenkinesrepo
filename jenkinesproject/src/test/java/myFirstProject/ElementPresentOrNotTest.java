@@ -13,7 +13,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class ElementPresentOrNotTest {
-	public WebDriver driver ;
+	public static WebDriver driver ;
 	@Test
 	public void sampletest31()
 	{
