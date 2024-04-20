@@ -13,7 +13,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class ElementPresentOrNotTest {
-	WebDriver driver ;
+	public WebDriver driver ;
 	@Test
 	public void sampletest31()
 	{
@@ -37,7 +37,9 @@ public class ElementPresentOrNotTest {
 		}
 		
 		String URL =System.getProperty("url");
+		
 		driver.get(URL);
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		WebElement phone = driver.findElement(By.id("select1"));
