@@ -24,7 +24,7 @@ public class ElementPresentOrNotTest {
 	@Test
 	public  void elePresent()
 	{
-		driver.manage().window().maximize();
+		
 		//driver.get("https://demoapps.qspiders.com/ui/dropdown?sublist=0");
 		String BROWSER = System.getProperty("browser");
 		
@@ -35,8 +35,10 @@ public class ElementPresentOrNotTest {
 		else if (BROWSER.equalsIgnoreCase("edge")) {
 			driver= new EdgeDriver();
 		}
+		driver.manage().window().maximize();
 		
 		String URL =System.getProperty("url");
+		
 		
 		driver.get(URL);
 		
