@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Do you like automation? [yes/no]]]>
+    </line>
+    <line>
+      <![CDATA[You selected yes]]>
+    </line>
+    <line>
+      <![CDATA[sample---1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-20T12:49:39 IST" name="Default suite" finished-at="2024-04-20T12:50:00 IST" duration-ms="21188">
+    <groups>
+    </groups>
+    <test started-at="2024-04-20T12:49:39 IST" name="Default test" finished-at="2024-04-20T12:50:00 IST" duration-ms="21188">
+      <class name="myFirstProject.AlertPopUpsTest">
+        <test-method signature="popUp()[pri:0, instance:myFirstProject.AlertPopUpsTest@72057ecf]" started-at="2024-04-20T12:49:39 IST" name="popUp" finished-at="2024-04-20T12:50:00 IST" duration-ms="21124" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Do you like automation? [yes/no]]]>
+            </line>
+            <line>
+              <![CDATA[You selected yes]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- popUp -->
+        <test-method signature="sampletest1()[pri:0, instance:myFirstProject.AlertPopUpsTest@72057ecf]" started-at="2024-04-20T12:50:00 IST" name="sampletest1" finished-at="2024-04-20T12:50:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[sample---1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sampletest1 -->
+      </class> <!-- myFirstProject.AlertPopUpsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
